@@ -1,0 +1,25 @@
+{
+  "name": "e2e_cypress_framework",
+  "version": "1.0.0",
+  "description": "E2E Cypress Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run --headless --browser chrome --spec cypress/e2e/edix_suite/*.js",
+    "cypress:runCloudDefault": "cypress run --headless --record --key=e9b6ca4f-3f35-4620-af3f-3b89ad754983 --browser chrome --spec cypress/e2e/edix_suite/*.js",
+    "cypress:runParallelCloudDefault": "cypress run --headless --record --key=e9b6ca4f-3f35-4620-af3f-3b89ad754983 --parallel --browser chrome --spec cypress/e2e/edix_suite/*.js"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "AleSapiain",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.4.1",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
