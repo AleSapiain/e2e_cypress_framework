@@ -6,8 +6,12 @@
   "scripts": {
     "test": "test",
     "cypress:open": "cypress open",
-    "cypress:runDefault": "cypress run --headless --browser chrome --spec cypress/e2e/edix_suite/*.js",
-    "cypress:runCloudDefault": "cypress run --headless --record --key=e9b6ca4f-3f35-4620-af3f-3b89ad754983 --browser chrome --spec cypress/e2e/edix_suite/*.js",
+    "cypress:runEdixDefault": "cypress run --headless --browser chrome --spec cypress/e2e/edix_suite/*.js",
+    "cypress:runApiDefault": "cypress run --headless --browser chrome --spec cypress/e2e/api_suite/*.js",
+
+    "cypress:runEdixCloudDefault": "cypress run --headless --record --key=e9b6ca4f-3f35-4620-af3f-3b89ad754983 --browser chrome --spec cypress/e2e/edix_suite/*.js",
+    "cypress:runApiCloudDefault": "cypress run --headless --record --key=e9b6ca4f-3f35-4620-af3f-3b89ad754983 --browser chrome --spec cypress/e2e/api_suite/*.js",
+
     "cypress:runParallelCloudDefault": "cypress run --headless --record --key=e9b6ca4f-3f35-4620-af3f-3b89ad754983 --parallel --browser chrome --spec cypress/e2e/edix_suite/*.js"
   },
   "repository": {

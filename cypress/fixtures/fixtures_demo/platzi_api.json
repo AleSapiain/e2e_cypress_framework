@@ -1,0 +1,19 @@
+[
+    {
+        "email": "john@mail.com",
+        "password": "changeme"
+    },
+    
+    {
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "categoryId": 1,
+        "images": ["https://placeimg.com/640/480/any"]
+    },
+    
+    {
+        "title": "Change title",
+        "price": 100
+    }
+]
